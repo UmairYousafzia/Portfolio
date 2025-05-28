@@ -88,4 +88,60 @@
         display: flex;
             gap: 32px;
     }
+    .container_hh {
+        position: relative;
+        left: 0;
+    width: 97%;
+    }
+    .modal-content {
+    position: relative;
+     left: 0px;
+}
+  .about-style-one-thumb {
+    margin: 0;
+}
+.about-style-one-thumb {
+    margin-top: 70px;
+    padding: 0!important;
+    margin-left: 10px;
+}
+.abot {
+    width: 80%;
+}
+.about-style-one-info {
+    text-align: center;
+    width: 70%;
+    margin-top: 20px;
+    padding: 5px;
+}
+.sub-title {
+    font-size: 32px;
+}
+.title {
+    font-size: 20px;
+}
+.about-item  {
+    width: 96%;
+    padding: 10px;
+}
+.bg-dark .about-item  {
+    padding: 20px 10px;
+}
+.about-item h3 {
+    padding: 0;
+}
+.about-item h3::after {
+    position: absolute;
+    left: -92px;
+    width: 297px;
+    top: -98px; }
+ul.skill-items li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-style-one-info .top-info {
+    margin-bottom: 40px;
+    margin-top: 43px;
+    padding-left: 20px;}
 }

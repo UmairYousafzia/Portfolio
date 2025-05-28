@@ -7,7 +7,7 @@ const About = () => {
       <div id="about" class="about-style-one-area default-padding">
             <div class="container_hh">
                 <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 abot">
                         <div className="about-style-one-thumb">
                             <img src={profile} alt="Image Not found"/>
                             <div class="curve-text">
