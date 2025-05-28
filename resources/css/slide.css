@@ -75,3 +75,17 @@ h2.harndd {
 .contact-area  {
   background-image: url(../images/shape/map-light.png);
 }
+
+@media only screen and (max-width: 786px) {
+	h2.harndd {
+		display: flex;
+		justify-content: center;
+    display: none;
+	}
+	.banner-style-one-area h2, .banner-style-two-area h2{
+		text-align: center;
+	}
+	.content p {
+		text-align: center!important;
+	}
+}

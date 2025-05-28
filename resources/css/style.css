@@ -6942,7 +6942,7 @@ ul.gallery-project-basic-info li:first-child {
 		padding-top: 85px;
 	}
 
-	/* Banner */
+	/* Banner
 	.banner-style-one-area {
 		height: auto;
 		max-height: initial;
@@ -7037,7 +7037,7 @@ ul.gallery-project-basic-info li:first-child {
 
 	.banner-style-two-area .author-thumb {
 		display: none;
-	}
+	} */
 
 	/* About */
 
@@ -7506,3 +7506,4 @@ ul.gallery-project-basic-info li:first-child {
 		width: 7em;
 	}
 }
+

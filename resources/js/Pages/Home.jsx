@@ -17,7 +17,7 @@ const Home = () => {
             <div class="container_h">
                 <div class="banner-top">
                     <div class="row align-center sss">
-                        <div class="col-lg-7 pr-50 pr-md-15 pr-xs-15">
+                        <div class="col-lg-7 conn pr-50 pr-md-15 pr-xs-15">
                             <div class="information">
                                 <div class="content">
                                     <h2 className='harndd'>Hey <img src={harnd} alt="image not found"/> , I'm
@@ -29,9 +29,9 @@ const Home = () => {
                                     <a href="https://www.linkedin.com/in/umair-hussain-872026278/" className="btn-standard mt-10 smooth-menu text-decoration-none ">Hire me Now</a>
                                 </div>
                                 <div class="profile-grid">
-                                    <ul>
-                                        <li>
-                                            <a class="smooth-menu" href='/service'>
+                                    <ul className="ser">
+                                        <li className='smm'>
+                                            <a className="smoth-menu" href='/service'>
                                                 Services
                                                 <div class="icon-list d-flex p-6">
                                                     <img src={react} alt="Image not Found"/>
@@ -54,7 +54,7 @@ const Home = () => {
                                                 <img src="assets/img/shape/laptop.png" alt="Image Not Found"/>
                                             </a>
                                         </li> */}
-                                        <li>
+                                        <li className='abou'>
                                             <a class="smooth-menu" href='/about'>
                                                 About
                                                 <strong>A</strong>
