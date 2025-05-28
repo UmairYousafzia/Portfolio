@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My App</title>
+    <title>Portfolio</title>
     @viteReactRefresh
     @vite('resources/js/app.jsx')
     @inertiaHead
