@@ -1,16 +1,18 @@
-@media only screen and (min-width: 786px) {
+@media only screen and (max-width: 786px) {
+  
 	h2.harndd {
 		display: flex!important;
 		justify-content: center!important;
-        font-size: 120px;
+        font-size: 50px;
+        margin-top: 150px;
 	}
 	.banner-style-one-area h2, .banner-style-two-area h2{
 		text-align: center!important;
-        font-size: 120px;
+        font-size: 50px;
 	}
 	.content p {
 		text-align: center!important;
-        font-size: 50px;
+        font-size: 30px;
 	}
     .banner-style-one-area .conn {
         display: flex;
@@ -21,7 +23,7 @@
     }
     .btn-standard {
         text-align: center;
-        font-size: 50px;
+        font-size: 30px;
     }
     .profile-grid ul {
     display: grid;
@@ -48,11 +50,9 @@
         padding: 60px;
       }
       .fa-bars, .fa-navicon {
-        height: 124px;
+        height: 44px;
       }
-      .container_p  {
-        height: 180px;
-      }
+  
       .ser {
         padding: 0px;
       }
@@ -69,28 +69,23 @@
         height: 77% !important;
               }
               .thumb img {
-                margin-left: 55px;
+                margin-left: 9px;
               }
                   .banner-style-one-area .thumb::after, .bg-dark .banner-style-one-area .thumb::after  {
                     width: 90%;
                   }
       
      
-element.style {
-    justify-content: center;
-    align-items: center;
-}
-
-.bg-dark .profile-grid ul a {
-    align-items: center;
-}
-.sss {
-    width: 100%;
-    margin: 0px;
-} 
-.information{
-    width: 100%;
-    display: flex;
-        gap: 32px;
-}
+    .bg-dark .profile-grid ul a {
+        align-items: center;
+    }
+    .sss {
+        width: 100%;
+        margin: 0px;
+    } 
+    .information{
+        width: 100%;
+        display: flex;
+            gap: 32px;
+    }
 }
