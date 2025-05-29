@@ -4,6 +4,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import logo from "./../../images/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from '@inertiajs/react';
 const Header = () => {
   return (
     <>
@@ -31,20 +32,20 @@ const Header = () => {
 
                         <ul class="nav navbar-nav navbar-right mt-6" data-in="fadeInDown" data-out="fadeOutUp">
                             <li>
-                                <a class="smooth-menu" href="#home">Home</a>
+                                 <Link class="smooth-menu" href='/'>Home</Link>
                             </li>
                             <li>
-                                <a class="smooth-menu" href="#services">Services</a>
+                                 <Link class="smooth-menu" href='/service'>Services</Link>
                             </li>
                             <li>
-                                <a class="smooth-menu" href="#about">About</a>
+                                 <Link class="smooth-menu" href='/about'>About</Link>
                             </li>
                             <li>
-                                <a class="smooth-menu" href="#portfolio">Portfolio</a>
+                                <Link class="smooth-menu" href='/portfolio'>Portfolio</Link>
                             </li>
                            
                             <li>
-                                <a class="smooth-menu" href="#contact">contact</a>
+                                  <Link class="smooth-menu" href='/contact-us'>Contact</Link>
                             </li>
                         </ul>
                     </div>

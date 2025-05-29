@@ -1,4 +1,4 @@
-@media only screen and (max-width: 986px) {
+@media only screen and (max-width: 786px) {
   
 	h2.harndd {
 		display: flex!important;
@@ -145,3 +145,153 @@ ul.skill-items li {
     margin-top: 43px;
     padding-left: 20px;}
 }
+
+
+@media only screen and (max-width: 986px) {
+  
+	h2.harndd {
+		display: flex!important;
+		justify-content: center!important;
+        font-size: 50px;
+        margin-top: 57px;
+	}
+	.banner-style-one-area h2, .banner-style-two-area h2{
+		text-align: center!important;
+        font-size: 101px;
+	}
+	.content p {
+		text-align: center!important;
+        font-size: 30px;
+	}
+    .banner-style-one-area .conn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .btn-standard {
+        text-align: center;
+        font-size: 30px;
+    }
+    .profile-grid ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 30px;
+    }
+    .banner-style-one-area .icon-list {
+         display: flex;
+         flex-direction: row;
+      
+        }
+      .smoth-menu {
+       
+            height: 229px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 60px;
+      
+      }  
+      .smooth-menu {
+        padding: 60px;
+      }
+      .fa-bars, .fa-navicon {
+        height: 44px;
+      }
+  
+      .ser {
+        padding: 0px;
+      }
+      .abou {
+
+        margin-top: 40px;
+         
+      }
+          .banner-style-one-area .thumb  {
+            padding: 0;
+          }
+              .banner-style-one-area .thumb::before  {
+                width: 97% !important;
+        height: 77% !important;
+              }
+              .thumb img {
+                margin-left: 9px;
+              }
+                  .banner-style-one-area .thumb::after, .bg-dark .banner-style-one-area .thumb::after  {
+                    width: 90%;
+                  }
+      
+     
+    .bg-dark .profile-grid ul a {
+        align-items: center;
+    }
+    .sss {
+        width: 100%;
+        margin: 0px;
+    } 
+    .information{
+        width: 100%;
+        display: flex;
+            gap: 32px;
+    }
+    .container_hh {
+        position: relative;
+        left: 0;
+    width: 97%;
+    }
+    .modal-content {
+    position: relative;
+     left: 0px;
+}
+  .about-style-one-thumb {
+    margin: 0;
+}
+.about-style-one-thumb {
+    margin-top: 70px;
+    padding: 0!important;
+    margin-left: 10px;
+}
+.abot {
+    width: 80%;
+}
+.about-style-one-info {
+    text-align: center;
+    width: 70%;
+    margin-top: 20px;
+    padding: 5px;
+}
+.sub-title {
+    font-size: 32px;
+}
+.title {
+    font-size: 20px;
+}
+.about-item  {
+    width: 96%;
+    padding: 10px;
+}
+.bg-dark .about-item  {
+    padding: 20px 10px;
+}
+.about-item h3 {
+    padding: 0;
+}
+.about-item h3::after {
+    position: absolute;
+    left: -92px;
+    width: 297px;
+    top: -98px; }
+ul.skill-items li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-style-one-info .top-info {
+    margin-bottom: 40px;
+    margin-top: 43px;
+    padding-left: 20px;}
+}
+

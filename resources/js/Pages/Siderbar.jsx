@@ -80,7 +80,7 @@ export default function SideNavbar() {
                             <div class="nav-item-wrapper"></div>
                         </div>
                         <div class="nav-item">
-                            <a class="smooth-menu" href='/portfolio'>Portfolio</a>
+                            <Link class="smooth-menu" href='/portfolio'>Portfolio</Link>
                             <div class="nav-item-wrapper"></div>
                         </div>
                         
