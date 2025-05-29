@@ -12,10 +12,7 @@ const Header = () => {
         <header>
             <nav
                 class="navbar mobile-sidenav onepage-menu mobile-nav-only attr-border navbar-sticky navbar-default validnavs navbar-fixed dark no-background">
-
-
                 <div class="container_p d-flex justify-content-between align-items-center">
-
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle px-5" data-toggle="collapse" data-target="#navbar-menu">
                           <FontAwesomeIcon icon={faBars} style={{ fontSize: '24px', color: '#fff' }} />
